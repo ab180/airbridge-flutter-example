@@ -2,11 +2,30 @@ import 'package:flutter/material.dart';
 import 'package:airbridge_flutter_sdk/airbridge_flutter_sdk.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MyApp extends StatefulWidget {
+  @override
+  _AppState createState() => _AppState();
+}
+
+class _AppState extends State<MyApp> {
+  final navigatorKey = GlobalKey<NavigatorState>();
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      init();
+    });
+  }
+
+  Future<void> init() async {
+    Airbridge.setOnDeeplinkReceived((deeplink) {
+      print("[DeepLink] $deeplink");
+    });
+  }
 
   // This widget is the root of your application.
   @override
