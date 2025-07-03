@@ -1,0 +1,29 @@
+PODS:
+  - airbridge-ios-sdk (4.6.0)
+  - airbridge_flutter_sdk (4.6.0):
+    - airbridge-ios-sdk (= 4.6.0)
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - airbridge_flutter_sdk (from `.symlinks/plugins/airbridge_flutter_sdk/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - airbridge-ios-sdk
+
+EXTERNAL SOURCES:
+  airbridge_flutter_sdk:
+    :path: ".symlinks/plugins/airbridge_flutter_sdk/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  airbridge-ios-sdk: ff1cc434c17dd685237312419c9ba88209f74e5f
+  airbridge_flutter_sdk: 7179651607ffdeddb91b038bbd249eb8186ddd2c
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+
+PODFILE CHECKSUM: 4305caec6b40dde0ae97be1573c53de1882a07e5
+
+COCOAPODS: 1.16.2

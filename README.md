@@ -1,10 +1,13 @@
 # Airbridge Flutter Example
 
 ## Introduction
-This document introduces best practices for integrating the **Airbridge flutter SDK** using a eaxmple app. It also provides examples of how to implement and test various methods.
+This document introduces best practices for integrating the **Airbridge Flutter SDK** using a eaxmple app. It also provides examples of how to implement and test various methods.
 
-**v4-example**
-- introduces best practices for integrating the  **Airbridge flutter SDK v4**
+**v4-mmp-plan-example**
+- This guide introduces best practices for integrating **Airbridge Flutter SDK v4** in the Airbridge **MMP Plan** environment.
+
+**v4-deeplink-plan-example**
+- This guide introduces best practices for integrating **Airbridge Flutter SDK v4** in the Airbridge **Deeplink Plan** environment.
 
 **v3-example**
 - **Airbridge flutter SDK v3** examples will be coming later.
