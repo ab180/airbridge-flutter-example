@@ -1,4 +1,4 @@
-# Airbridge Flutter v4 Deeplink Plan Example
+# Airbridge Flutter v3 MMP Plan Example
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ Click `Send Event` button to send event
 Event information sent from the Airbridge SDK should be seen in the "Airbridge dashboard → `Raw Data` → `App Real-time Log`" tab.
 
 ### Deeplink settings
-To set up a deep link, refer to the [Set up deep linking](https://help.airbridge.io/en/developers/flutter-sdk-v4#set-up-deep-linking) link
+To set up a deep link, refer to the [Deep Linking](https://help.airbridge.io/en/developers/flutter-sdk#deep-linking) link
 
 ### Deeplink test
 You can test deep links using the following two methods:
